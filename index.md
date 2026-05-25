@@ -1,41 +1,22 @@
----
-layout: default
-title: 项目实训文档
----
+# 从0开始复现学习黑马苍穹外卖项目
 
-# 项目实训文档
+点击链接直达：<https://www.bilibili.com/video/BV1TP411v7v6/?spm_id_from=333.337.search-card.all.click>
 
-这里用于公开展示组内需要同步的文档内容。组员访问：
+课程配套资料：微信公众号中搜索"黑马程序员教程库"小程序，"免费教程"搜索"苍穹外卖"，即可百度网盘保存下载。
+网盘链接：<https://pan.baidu.com/s/1MNDzXyVlr3mtmLgBjcPJVw&pwd=6633>，提取码：6633
 
-<https://fengqizihang.me>
+## 前端 Web 搭建
 
-## 当前说明
+将"课程资料\day01\前端运行环境\nginx-1.20.2"放到无中文路径的目录下，启动 `nginx.exe`
 
-- 这个页面适合放项目要求、任务分工、进度安排、会议记录和提交说明。
-- 之后要更新内容时，主要修改仓库里的 `index.md`。
-- 修改提交到 `main` 分支后，GitHub Pages 会自动发布，通常需要几十秒到几分钟生效。
+## 后端搭建
 
-## 项目信息
-
-| 项目 | 内容 |
-| --- | --- |
-| 项目名称 | 待补充 |
-| 课程/实训 | 计算机项目实训 |
-| 组长 | 待补充 |
-| 成员 | 待补充 |
-
-## 近期安排
-
-1. 补充项目基本信息。
-2. 整理任务分工。
-3. 更新阶段性进度和注意事项。
-
-## 任务分工
-
-| 成员 | 负责内容 | 状态 |
-| --- | --- | --- |
-| 待补充 | 待补充 | 待开始 |
-
-## 提交与同步
-
-组内文档统一以本页面为准。需要变更时，直接更新本仓库内容并提交。
+- **开发工具**：IntelliJ IDEA，版本不限，需要破解一下
+- **JDK-8**：<https://www.oracle.com/cn/java/technologies/downloads/#java8-windows>
+- **MySQL 安装**：
+  - 安装文档：<https://heuqqdmbyk.feishu.cn/wiki/ZRSFwACsRiBD2NkV7bmcrJhInme>
+  - 安装包下载地址：<https://dev.mysql.com/downloads/installer/>
+- **Git 管理**：下载 Git（<https://git-scm.com/install/windows>），注册 Gitee 账号，创建仓库，提交代码
+- **数据库**：执行 sql 文件（IDEA 可以直接执行），密码 123456 的 MD5 值（e10adc3949ba59abbe56e057f20f883e）
+- **Redis**：下载地址 <https://github.com/tporadowski/redis/releases>
+- **测试 Swagger**：本人使用 Apifox，这部分看视频教程，自己操作
